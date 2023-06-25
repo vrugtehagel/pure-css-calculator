@@ -3,9 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="icon" href="./favicon.svg">
+	<link rel="mask-icon" href="./mask-icon.svg">
+	<link rel="apple-touch-icon" href="./touch-icon.png">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" href="logic.css">
-	<link rel="stylesheet" href="design.css">
+	<link rel="stylesheet" href="./logic.css">
+	<link rel="stylesheet" href="./design.css">
 	<title>Pure CSS Calculator</title>
 </head>
 <body>
@@ -239,12 +242,9 @@
 		</div>
 	</form>
 	<a href="https://vrugtehagel.nl">
-		<svg viewBox="0 0 40 40">
+		<svg viewBox="0 0 48 48">
 			<title>vrugtehagel</title>
-			<g style="stroke: currentColor;fill: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;">
-				<path d="M25 28L32 12 M7 12L14 28L21 12" style="fill: none;"></path>
-				<circle cx="23" cy="20" r="2" style="stroke: none;"></circle>
-			</g>
+			<path d="M2 23C4 20 9 20 10 31S18 36 19 32S23 16 32 11C27 6 20 8 15 26C13 9 -2 12 2 23M27 38C30 22 41 8 46 14S38 21 27 38M26 28C23 21 28 18 30 20S28 23 26 28" fill="currentColor"></path>
 		</svg>
 	</a>
 	<button id="why">
@@ -258,7 +258,6 @@
 		<p>
 			How did I do it? Well, it's a mix of using CSS variables, a fitting HTML structure with over 80 checkboxes and labels, calc() for the math, and CSS counters to output things. Have a look at the source code! I promise, there's absolutely zero Javascript. Even this dialog is pure CSS!
 		</p>
-		<p>PS: unfortunately Google Chrome doesn't like it when you divide with calc(). It should work according to the specs, but it doesn't. Bummer. Try it in Firefox!
 	</section>
 </body>
 </html>
